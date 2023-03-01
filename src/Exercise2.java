@@ -4,20 +4,17 @@ public class Exercise2 {
 //        for (int i = 0; i < 3; i++) {
 //            for (int j = 0; j < 7; j++) {
 //                System.out.print("* ");
-//                if (j == 6) {
-//                    System.out.println(" ");
-//                }
 //            }
+//        System.out.println(" ");
 //        }
+
 
         //* Tam giac vuong
 //        for (int i = 0; i < 6; i++) {
 //            for (int j = 0; j < i; j++) {
 //                System.out.print("* ");
-//                if (j == i - 1) {
-//                    System.out.println(" ");
-//                }
 //            }
+//        System.out.println(" ");
 //        }
 
 //        for (int i = 0; i < 6; i++) {
@@ -31,10 +28,8 @@ public class Exercise2 {
 //        for (int i = 5; i >  0; i--) {
 //            for (int j = 0; j < i; j++) {
 //                System.out.print("* ");
-//                if (j == i - 1) {
-//                    System.out.println(" ");
-//                }
 //            }
+//        System.out.println(" ");
 //        }
 
         //* Tam giac can
@@ -47,13 +42,24 @@ public class Exercise2 {
 
         String kc = "";
         String result = "";
-        for (int i = 14; i > 5; i-=2) {
-            for (int j = 0; j < i/2; j++) {
+        for (int i = 14; i > 5; i -= 2) {
+            for (int j = 0; j < i / 2; j++) {
                 kc += " ";
             }
             result += "* ";
             System.out.println(kc + result + kc);
             kc = "";
         }
+
+
+//        for (int i = 0; i < 5; i++) {
+//            System.out.print("     ");
+//            for (int j = 0; j < 3; j++) {
+//                System.out.print("* ");
+//                if ( j == 2) {
+//                    System.out.println(" ");
+//                }
+//            }
+//        }
     }
 }
